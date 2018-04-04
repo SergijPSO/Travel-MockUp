@@ -137,35 +137,41 @@ label {
     font-family: "Roboto Slab", serif;
     font-weight: bold; }
 
-.item-1 {
+.item-1 .image {
   background-image: url("../images/it-1.png"); }
 
-.item-2 {
+.item-2 .image {
   background-image: url("../images/it-2.png"); }
 
-.item-3 {
+.item-3 .image {
   background-image: url("../images/it-3.png"); }
 
-.item-4 {
+.item-4 .image {
   background-image: url("../images/it-4.png"); }
 
-.item-5 {
+.item-5 .image {
   background-image: url("../images/it-5.png"); }
 
-.item-6 {
+.item-6 .image {
   background-image: url("../images/it-6.png"); }
 
-.item-7 {
+.item-7 .image {
   background-image: url("../images/it-7.png"); }
 
-.item-8 {
+.item-8 .image {
   background-image: url("../images/it-8.png"); }
 
-.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 {
+.item-1 .image,
+.item-2 .image,
+.item-3 .image,
+.item-4 .image,
+.item-5 .image,
+.item-6 .image,
+.item-7 .image,
+.item-8 .image {
   height: 138px;
   width: 138px;
-  border-radius: 100%;
-  margin: 40px 55px; }
+  border-radius: 100%; }
 
 .services {
   margin: 0 auto;
@@ -177,6 +183,8 @@ label {
     flex-direction: row;
     text-decoration: none;
     list-style: none; }
+    .services .services_items li {
+      margin: 40px 55px; }
   .services p {
     font-family: "Roboto Slab", serif;
     text-align: center;
@@ -513,7 +521,8 @@ footer {
   .services_items li {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row; }
+    flex-direction: row;
+    width: 50%; }
 
   .services {
     max-width: 480px;
