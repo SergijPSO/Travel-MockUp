@@ -529,7 +529,9 @@ footer {
   .services_items li {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 20px 0px;
+    flex: 0 0 50%; }
 
   .services {
     margin: 0 auto;
