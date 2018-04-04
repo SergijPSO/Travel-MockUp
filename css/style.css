@@ -186,11 +186,12 @@ label {
     flex-direction: row;
     text-decoration: none;
     list-style: none; }
+    .services .services_items li {
+      margin: 20px 30px; }
   .services p {
     font-family: "Roboto Slab", serif;
     text-align: center;
     font-size: 24px;
-    /*padding-top: 150px;*/
     color: #34618a;
     font-weight: bold; }
 
