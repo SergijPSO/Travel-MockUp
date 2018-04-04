@@ -137,6 +137,9 @@ label {
     font-family: "Roboto Slab", serif;
     font-weight: bold; }
 
+.image {
+  margin: 0 auto; }
+
 .item-1 .image {
   background-image: url("../images/it-1.png"); }
 
@@ -518,11 +521,15 @@ footer {
     text-decoration: none; }
 
 @media only screen and (max-width: 480px) {
+  .text_descr {
+    width: auto;
+    height: auto; }
+
   .services_items li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 50%; }
+    flex: 0 0 50%; }
 
   .services {
     max-width: 480px;
