@@ -188,6 +188,7 @@ label {
 	.services_items{
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction:row;
 		text-decoration: none;
 		list-style: none;
 		}
@@ -551,16 +552,16 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-.services_items{
-	align-items: stretch;
-	width: 480px;
-	height: 890px;
-}
-.services {
-	/*max-width:480px;
-	height: 1050px;*/
-}
-.description{
+	 .services_items li{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction:row;
+	}
+	.services {
+	max-width:480px;
+	height: 1050px;
+	}
+	.description{
 	padding-top: 50px;
 	text-align: center;
 	color:$choose_tours_color;
