@@ -392,8 +392,14 @@ label {
     font-size: 16px; }
 
 .cont_bs {
-  width: 100%;
-  margin: 0 auto; }
+  max-width: 982px;
+  /*width: 100%; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+  .cont_bs iframe {
+    width: 642px;
+    height: 455px; }
 
 .basement {
   max-width: 1920px;
@@ -409,11 +415,6 @@ label {
     font-family: "Roboto Slab", serif;
     color: #fff;
     font-size: 36px; }
-
-.cont_bs {
-  width: 982px;
-  display: flex;
-  justify-content: space-between; }
 
 .continent {
   width: 305px;
@@ -521,15 +522,67 @@ footer {
     text-decoration: none; }
 
 @media only screen and (max-width: 480px) {
+  .footer ul {
+    width: 480px; }
+
+  .basement {
+    height: 100%;
+    background: url(../images/basemenet_bcg_mob.png);
+    background-repeat: no-repeat; }
+
+  .continent {
+    padding-top: 30px;
+    margin: 0 auto; }
+
+  .cont_bs {
+    width: 480px;
+    display: block; }
+    .cont_bs .map_b {
+      width: 480px; }
+      .cont_bs .map_b iframe {
+        position: relative;
+        left: 15px;
+        width: 450px;
+        height: 337px; }
+
+  .slider_sec-n {
+    height: 555px;
+    background: url(../images/boot_mob.png);
+    background-repeat: no-repeat; }
+    .slider_sec-n .fm_tours {
+      font-size: 14px; }
+    .slider_sec-n p {
+      font-size: 18px; }
+
+  .prev, .next {
+    top: 14%;
+    padding: 52px;
+    background-size: auto; }
+
+  .mySlides img {
+    width: 369px;
+    height: 220px; }
+
+  .transp_cont {
+    max-width: 95%; }
+    .transp_cont .text p {
+      font-size: 14px; }
+
+  .tours-box {
+    margin: 0 auto;
+    max-width: 480px;
+    height: 850px;
+    overflow: scroll; }
+    .tours-box .box-1, .tours-box .box-2, .tours-box .box-3, .tours-box .box-4, .tours-box .box-5, .tours-box .box-6 {
+      position: relative;
+      left: 16%; }
+
   .text_descr {
     width: auto;
     height: auto;
     padding-top: 10px; }
 
   .services_items li {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     margin: 20px 0px;
     flex: 0 0 50%; }
 
