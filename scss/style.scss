@@ -34,16 +34,13 @@ $choose_tours_color:#34618a;
 .big_b{
 	width:260px;
 	margin:0 auto;
-	}
+}
 
 .nav {
     width: 100%;
     text-align: center;
     height: 70px;
     line-height: 70px;
-}
-.menu {
-    margin: 0 30px 0 0;
 }
 .menu a {
     /*clear: right;*/
@@ -78,7 +75,6 @@ $choose_tours_color:#34618a;
 .elipse img{
   margin-top: 8px;
 }
-
 label {
     margin: 0 40px 0 0;
     font-size: 26px;
@@ -90,7 +86,6 @@ label {
 #nav-bar {
     display: none;
 }
-
 
 .but-1{
 	width: 260px;
@@ -574,6 +569,9 @@ footer {
 	}
 }
 @media only screen and (max-width: 480px) {
+	a:visited{
+		color:#fff;
+	}
 	.content{
 		width: 480px;
 	}
@@ -582,6 +580,9 @@ footer {
 		width: 100px;
 	}
 
+	.but-ftr{
+		line-height: 2em;
+	}
 	footer {
 		padding-top: 10px;
 		ul{
@@ -592,7 +593,6 @@ footer {
 			}	
 		}
 	}
-	   
 	.basement{
 	height: 1042px;
 	background:url(../images/basemenet_bcg_mob.png);
