@@ -1,9 +1,9 @@
 /*reset*/
 *{
-	margin:0;
-	padding:0;
-	text-decoration: none;
-	list-style:none;
+margin:0;
+padding:0;
+text-decoration: none;
+list-style:none;
 }	
 /*reset*/
 /*variables*/
@@ -35,7 +35,6 @@ $choose_tours_color:#34618a;
 	width:260px;
 	margin:0 auto;
 }
-
 .nav {
     width: 100%;
     text-align: center;
@@ -43,7 +42,7 @@ $choose_tours_color:#34618a;
     line-height: 70px;
 }
 .menu a {
-    /*clear: right;*/
+    clear: right;/*clear:right*/
     text-decoration: none;
     color: gray;
     margin: 0 10px;
@@ -60,7 +59,7 @@ $choose_tours_color:#34618a;
     width:150px;
     display:inline-block;
     background-repeat:no-repeat;
-    background-image:url(../images/logo_mob.png);
+    background-image:url(../images/logo_mob.png);/*лого*/
 }
 
 .elipse {
@@ -569,9 +568,7 @@ footer {
 	}
 }
 @media only screen and (max-width: 480px) {
-	a:visited{
-		color:#fff;
-	}
+	
 	.content{
 		width: 480px;
 	}
@@ -590,6 +587,9 @@ footer {
 			width:480px;
 			li{
 				font-size: 12px;
+				a:visited{
+					color:#fff;
+				}
 			}	
 		}
 	}

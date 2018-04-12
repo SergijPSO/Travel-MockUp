@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*reset*/
 * {
   margin: 0;
@@ -35,7 +36,8 @@
   line-height: 70px; }
 
 .menu a {
-  /*clear: right;*/
+  clear: right;
+  /*clear:right*/
   text-decoration: none;
   color: gray;
   margin: 0 10px;
@@ -52,7 +54,8 @@
   width: 150px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url(../images/logo_mob.png); }
+  background-image: url(../images/logo_mob.png);
+  /*лого*/ }
 
 .elipse {
   display: inline-block;
@@ -525,9 +528,6 @@ footer {
   .basement {
     width: 1000px; } }
 @media only screen and (max-width: 480px) {
-  a:visited {
-    color: #fff; }
-
   .content {
     width: 480px; }
 
@@ -545,6 +545,8 @@ footer {
       width: 480px; }
       footer ul li {
         font-size: 12px; }
+        footer ul li a:visited {
+          color: #fff; }
 
   .basement {
     height: 1042px;
