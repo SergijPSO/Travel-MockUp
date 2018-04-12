@@ -566,16 +566,37 @@ footer {
 	}
 }
 @media only screen and (max-width: 480px) {
-	.footer {
+	.content{
+		width: 480px;
+	}
+	.logo{
+		height:50px;
+		width: 100px;
+	}
+
+	footer {
+		padding-top: 10px;
 		ul{
+			height: 60px;
 			width:480px;
+			li{
+				font-size: 12px;
+			}	
 		}
 	}
-	
+	   
 	.basement{
-	height: 100%;
+	height: 1042px;
 	background:url(../images/basemenet_bcg_mob.png);
 	background-repeat: no-repeat;
+	h2{
+		font-size: 36px;
+		padding-bottom: 20px;
+		padding-top: 40px;
+	}
+	.c_form{
+		margin-top: 40px;
+	}
 	}
 	.continent {
 		padding-top:30px;
@@ -588,7 +609,7 @@ footer {
 			width:480px;
 			iframe{
 				position: relative;
-				left:15px;
+				left:3.2%;
 				width: 450px;
 				height: 337px;
 			}
@@ -637,7 +658,7 @@ footer {
 	.text_descr {
 	width: auto;
     height: auto;
-    padding-top: 10px;
+    padding-top: 8px;
 	}
 	 .services_items li{
 		margin: 20px 0px; 
@@ -682,14 +703,17 @@ footer {
         cursor: pointer;
     }
     .menu {
-        text-align: center;
-        width: 100%;
         display: none;
+        .logo{
+        	height:50px;
+			width: 100px;
+        }
     }
     .menu a:nth-child(6n){
         display:none;
     }
     .menu a {
+    	text-align: center;
     	font-size:18px;
         display: block;
         margin: 0;
