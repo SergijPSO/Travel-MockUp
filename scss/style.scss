@@ -35,6 +35,13 @@ $choose_tours_color:#34618a;
 	width:260px;
 	margin:0 auto;
 }
+	.logo{
+		height:70px;
+		width: 150px;
+		background-image:url(../images/logo.png);
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	}
 .nav {
     width: 100%;
     text-align: center;
@@ -53,10 +60,10 @@ $choose_tours_color:#34618a;
     text-transform: uppercase;
     color:#54788d;
 }
-.logo{
-    vertical-align: middle;
-    height:70px;
-    width:150px;
+.logo_bot{
+    vertical-align: middle;/*нижнє*/
+    height:50px;
+    width:100px;
     display:inline-block;
     background-repeat:no-repeat;
     background-image:url(../images/logo_mob.png);/*лого*/
@@ -574,6 +581,10 @@ footer {
 	.logo{
 		height:50px;
 		width: 100px;
+		position: absolute;	
+		top:20px;
+		left: 30px;
+		background-image:url(../images/logo_mob.png);
 	}
 
 	.but-ftr{
@@ -700,8 +711,8 @@ footer {
 	background-image:url(../images/mob_map.png);
 }
 .nav {
-    background-repeat:no-repeat;
-    background-image:url(../images/logo_mob.png);
+   /* background-repeat:no-repeat;
+    background-image:url(../images/logo_mob.png);*/
     line-height: 40px;
     }
     label {
@@ -711,11 +722,11 @@ footer {
     }
     .menu {
         display: none;
-        .logo{
+       /* .logo{
         	height:50px;
 			width: 100px;
 			display:none;
-        }
+        }*/
     }
     .menu a:nth-child(6n){
         display:none;
