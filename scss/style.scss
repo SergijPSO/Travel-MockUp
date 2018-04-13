@@ -75,7 +75,7 @@ $choose_tours_color:#34618a;
   margin-top: 8px;
 }
 label {
-    margin: 0 40px 0 0;
+    margin: 0 40px 0 0; /*20 47 0 0*/
     font-size: 26px;
     line-height: 70px;
     display: none;
@@ -417,7 +417,6 @@ label {
 }
 .cont_bs{
 	max-width: 982px;
-	/*width: 100%; */
 	margin:0 auto;
 	display:flex;
 	justify-content: space-between;
@@ -703,7 +702,7 @@ footer {
 .nav {
     background-repeat:no-repeat;
     background-image:url(../images/logo_mob.png);
-    line-height: 55px;
+    line-height: 40px;
     }
     label {
         position: relative;
@@ -715,6 +714,7 @@ footer {
         .logo{
         	height:50px;
 			width: 100px;
+			display:none;
         }
     }
     .menu a:nth-child(6n){
