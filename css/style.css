@@ -25,35 +25,29 @@
     width: 260px;
     margin: 0 auto; }
 
-.big_b {
-  width: 260px;
-  margin: 0 auto; }
-
-.logo {
-  height: 70px;
-  width: 150px;
-  background-image: url(../images/logo.png);
-  background-repeat: no-repeat;
-  vertical-align: middle; }
-
 .nav {
   width: 100%;
   text-align: center;
   height: 70px;
   line-height: 70px; }
-
-.menu a {
-  clear: right;
-  /*clear:right*/
-  text-decoration: none;
-  color: gray;
-  margin: 0 10px;
-  display: inline-block;
-  margin-right: 35px;
-  font-size: 18px;
-  font-family: "Roboto Slab", serif;
-  text-transform: uppercase;
-  color: #54788d; }
+  .nav .menu a {
+    clear: right;
+    /*clear:right*/
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+    color: #54788d; }
+  .nav .menu .logo {
+    height: 70px;
+    width: 150px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    vertical-align: middle; }
 
 .logo_bot {
   vertical-align: middle;
@@ -73,13 +67,11 @@
   border-radius: 100px;
   margin-left: 37px;
   vertical-align: middle; }
-
-.elipse img {
-  margin-top: 8px; }
+  .elipse img {
+    margin-top: 8px; }
 
 label {
   margin: 0 40px 0 0;
-  /*20 47 0 0*/
   font-size: 26px;
   line-height: 70px;
   display: none;
@@ -131,6 +123,8 @@ label {
   background-image: url(../images/map_bcg.png);
   background-repeat: no-repeat;
   background-position: center center; }
+  .choose .image {
+    margin: 0 auto; }
 
 .description {
   padding-top: 40px;
@@ -145,9 +139,6 @@ label {
     font-size: 36px;
     font-family: "Roboto Slab", serif;
     font-weight: bold; }
-
-.image {
-  margin: 0 auto; }
 
 .item-1 .image {
   background-image: url("../images/it-1.png"); }
@@ -173,14 +164,9 @@ label {
 .item-8 .image {
   background-image: url("../images/it-8.png"); }
 
-.item-1 .image,
-.item-2 .image,
-.item-3 .image,
-.item-4 .image,
-.item-5 .image,
-.item-6 .image,
-.item-7 .image,
-.item-8 .image {
+.item-1 .image, .item-2 .image, .item-3 .image,
+.item-4 .image, .item-5 .image, .item-6 .image,
+.item-7 .image, .item-8 .image {
   height: 138px;
   width: 138px;
   border-radius: 100%; }
@@ -198,12 +184,12 @@ label {
     .services .services_items li {
       margin: 20px 0;
       width: 250px; }
-  .services p {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    font-size: 24px;
-    color: #34618a;
-    font-weight: bold; }
+      .services .services_items li p {
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+        font-size: 24px;
+        color: #34618a;
+        font-weight: bold; }
 
 .tours {
   height: 925px;
@@ -212,48 +198,46 @@ label {
   background-image: url("../images/week_bcg.png");
   background-repeat: no-repeat;
   background-position: center center; }
-  .tours h1 {
-    font-family: "Roboto Slab", serif;
-    color: #34618a;
-    font-size: 36px;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 45px; }
-
-.tours-box {
-  margin: 0 auto;
-  width: 965px; }
-  .tours-box button {
-    background-color: #2579bf;
-    border: 3px solid;
-    border-radius: 3px;
-    height: 32px;
-    width: 174px;
-    color: #fff;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    font-weight: bold; }
-  .tours-box h2 {
-    color: #fff;
-    font-size: 29px;
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding-top: 74%;
-    line-height: 2em; }
-  .tours-box p {
-    line-height: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding-bottom: 18px; }
-
-.but-3 {
-  display: flex;
-  margin: auto;
-  justify-content: center; }
+  .tours .tours-box {
+    margin: 0 auto;
+    width: 965px; }
+    .tours .tours-box button {
+      background-color: #2579bf;
+      border: 3px solid;
+      border-radius: 3px;
+      height: 32px;
+      width: 174px;
+      color: #fff;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      font-weight: bold; }
+    .tours .tours-box h1 {
+      font-family: "Roboto Slab", serif;
+      color: #34618a;
+      font-size: 36px;
+      text-align: center;
+      padding-top: 70px;
+      padding-bottom: 45px; }
+    .tours .tours-box h2 {
+      color: #fff;
+      font-size: 29px;
+      font-weight: bold;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      padding-top: 74%;
+      line-height: 2em; }
+    .tours .tours-box p {
+      line-height: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      padding-bottom: 18px; }
+    .tours .tours-box .but-3 {
+      display: flex;
+      margin: auto;
+      justify-content: center; }
 
 .box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
   width: 239px;
@@ -286,6 +270,7 @@ label {
   background-image: url("../images/prob.png"); }
 
 /*tours images ends*/
+/*Slider section begins*/
 .slider_sec-n {
   text-align: center;
   height: 838px;
@@ -300,22 +285,19 @@ label {
     font-size: 26px;
     color: #fff;
     font-weight: bold; }
-  .slider_sec-n .fm_tours {
-    line-height: 4em;
-    font-weight: normal;
-    font-family: "Roboto Slab", serif;
-    font-size: 24px;
-    color: #fff; }
-
-.sec_description {
-  padding-top: 66px; }
-
-/*Slider section begins*/
-.slideshow-container {
-  max-width: 780px;
-  max-height: 450px;
-  position: relative;
-  margin: auto; }
+  .slider_sec-n .sec_description {
+    padding-top: 66px; }
+    .slider_sec-n .sec_description .fm_tours {
+      line-height: 4em;
+      font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 24px;
+      color: #fff; }
+    .slider_sec-n .sec_description .slideshow-container {
+      max-width: 780px;
+      max-height: 450px;
+      position: relative;
+      margin: auto; }
 
 /* Hide the images by default */
 .mySlides {
@@ -323,7 +305,21 @@ label {
   .mySlides img {
     width: 780px;
     height: 450px; }
-
+  .mySlides .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -346,23 +342,6 @@ label {
   left: 0;
   border-radius: 5px 0 0 5px; }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s; }
-
-@-webkit-keyframes fade {
-  from {
-    opacity: .4; }
-  to {
-    opacity: 1; } }
-@keyframes fade {
-  from {
-    opacity: .4; }
-  to {
-    opacity: 1; } }
 /*Slider section ends*/
 .promo_sec {
   height: 818px;
@@ -478,25 +457,26 @@ footer {
     width: 1020px;
     margin: 0 auto;
     text-align: center; }
-  footer li {
-    display: inline-block;
-    font-family: "Roboto Slab", serif;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 18px; }
+    footer ul li {
+      display: inline-block;
+      font-family: "Roboto Slab", serif;
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      margin-right: 18px; }
+      footer ul li a:visited {
+        color: #fff; }
 
 .icons {
   width: 150px;
   height: 30px; }
-
-.icons li {
-  display: inline-block;
-  background: url(../images/sprite.png);
-  height: 24px;
-  width: 24px;
-  cursor: pointer;
-  margin-right: 10px; }
+  .icons li {
+    display: inline-block;
+    background: url(../images/sprite.png);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-right: 10px; }
 
 .icons .fb {
   background-position: -11px -10px; }
@@ -543,8 +523,8 @@ footer {
     height: 50px;
     width: 100px;
     position: absolute;
-    top: 20px;
-    left: 30px;
+    top: 17px;
+    left: 25px;
     background-image: url(../images/logo_mob.png); }
 
   .but-ftr {
@@ -568,23 +548,22 @@ footer {
       font-size: 36px;
       padding-bottom: 20px;
       padding-top: 40px; }
+    .basement .cont_bs {
+      width: 480px;
+      display: block; }
+      .basement .cont_bs .map_b {
+        width: 480px; }
+        .basement .cont_bs .map_b iframe {
+          position: relative;
+          left: 3.2%;
+          width: 450px;
+          height: 337px; }
     .basement .c_form {
       margin-top: 40px; }
 
   .continent {
     padding-top: 30px;
     margin: 0 auto; }
-
-  .cont_bs {
-    width: 480px;
-    display: block; }
-    .cont_bs .map_b {
-      width: 480px; }
-      .cont_bs .map_b iframe {
-        position: relative;
-        left: 3.2%;
-        width: 450px;
-        height: 337px; }
 
   .slider_sec-n {
     height: 555px;
@@ -660,40 +639,39 @@ footer {
   label {
     position: relative;
     display: block;
-    cursor: pointer; }
+    cursor: pointer;
+    right: 6px;
+    top: 15px; }
 
-  .menu {
-    display: none;
-       /* .logo{
-        	height:50px;
-			width: 100px;
-			display:none;
-        }*/ }
-
-  .menu a:nth-child(6n) {
-    display: none; }
-
+  /*.menu > a:not(.logo) {display: none;}*/
   .menu a {
     text-align: center;
     font-size: 18px;
     display: block;
     margin: 0; }
+  .menu a:not(.logo) {
+    display: none; }
 
-  #nav-bar:checked + .menu {
+  /*.menu a {
+  	text-align: center;
+  	font-size:18px;
+      display: block;
+      margin: 0;
+  }*/
+  #nav-bar:checked + .menu > a:not(.logo):not(:nth-child(6n)) {
     display: block; }
 
   .main_section {
     height: 570px;
     background-image: url(../images/travel_mob.png); }
-
-  .main_section .big_b {
-    padding-top: 380px;
-    display: flex; }
-    .main_section .big_b .but-1 {
-      margin: auto;
-      width: 213px;
-      height: 38px;
-      font-size: 18px;
-      line-height: 2em; } }
+    .main_section .big_b {
+      padding-top: 380px;
+      display: flex; }
+      .main_section .big_b .but-1 {
+        margin: auto;
+        width: 213px;
+        height: 38px;
+        font-size: 18px;
+        line-height: 2em; } }
 
 /*# sourceMappingURL=style.css.map */
