@@ -523,8 +523,8 @@ footer {
     height: 50px;
     width: 100px;
     position: absolute;
-    top: 17px;
-    left: 25px;
+    top: 13px;
+    left: 15px;
     background-image: url(../images/logo_mob.png); }
 
   .but-ftr {
@@ -601,15 +601,22 @@ footer {
     width: auto;
     height: auto;
     padding-top: 8px; }
+    .text_descr p {
+      font-size: 21px; }
 
   .services_items li {
     margin: 20px 0px;
-    flex: 0 0 50%; }
+    flex: 0 0 50%;
+    font-size: 21px; }
+    .services_items li p {
+      font-size: 13px; }
 
   .services {
     margin: 0 auto;
     max-width: 480px;
     height: 1050px; }
+    .services li {
+      font-size: 12px; }
 
   .description {
     padding-top: 50px;
@@ -632,8 +639,6 @@ footer {
     background-image: url(../images/mob_map.png); }
 
   .nav {
-    /* background-repeat:no-repeat;
-     background-image:url(../images/logo_mob.png);*/
     line-height: 40px; }
 
   label {
@@ -643,7 +648,6 @@ footer {
     right: 6px;
     top: 15px; }
 
-  /*.menu > a:not(.logo) {display: none;}*/
   .menu a {
     text-align: center;
     font-size: 18px;
@@ -652,12 +656,6 @@ footer {
   .menu a:not(.logo) {
     display: none; }
 
-  /*.menu a {
-  	text-align: center;
-  	font-size:18px;
-      display: block;
-      margin: 0;
-  }*/
   #nav-bar:checked + .menu > a:not(.logo):not(:nth-child(6n)) {
     display: block; }
 
